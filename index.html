@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is your birthday palindrome?</title>
+    <style>
+        body{
+            background-image: url("https://previews.123rf.com/images/sidliks/sidliks1704/sidliks170400088/77239952-illustration-of-happy-birthday-background-with-two-wave-set-of-colorful-balloons.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .container{
+            width: 80%;
+            padding: 1rem;
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        input{
+            width: 40%;
+            padding: 1rem;
+            text-align: center;
+            margin: 1rem;
+        }
+        button{
+            display: block;
+            padding: 1rem;
+            background-color: black;
+            color: white;
+            width: 44%;
+            margin: 1rem;
+            font-size: medium;
+        }
+        #result{
+            display: block;
+            padding: 1rem;
+            margin: 1.5rem;
+            width: 70%;
+            font-size: larger;
+            
+        }
+        #imgs{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <div class="container">
+        <h1>Palindrome Birthday</h1>
+    <input type="date" id="date" />
+    <button id="btn" onclick="clickHandler()"> Show me </button>
+    
+    <div id="result"></div>
+</div>
+</center>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
